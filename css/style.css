@@ -1,0 +1,38 @@
+body{
+	background-color:#dcd8c0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+#navbar	{
+	background-color:grey;
+	color:white;
+
+}
+
+#navbar	li{
+	display:inline;
+	padding-right: 20px;
+	list-style:none;
+
+}
+#navbar ul{
+	padding:0;
+	list-style:none;
+}
+
+#navbar a{
+	text-decoration: none;
+}
+
+#home{
+	padding-left:0px;
+
+}
