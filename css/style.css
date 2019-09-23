@@ -6,30 +6,36 @@ body{
 	margin:0;
 }
 
+a{
+	text-decoration: none;
+	color:#000;
+}
+a:active{
+	color:black;
+}
+
 .container{
 	width:80%;
 	margin:auto;
-	overflow:hidden;
 }
 #navbar	{
-	background-color:grey;
+	background-color:#12437b;
 	color:white;
-
 }
 
-#navbar	li{
-	display:inline;
-	padding-right: 20px;
-	list-style:none;
-
-}
 #navbar ul{
 	padding:0;
 	list-style:none;
 }
 
+#navbar	li{
+	display:inline;
+}
+
 #navbar a{
-	text-decoration: none;
+	color:white;
+	padding-right: 50px;
+	list-style:none;
 }
 
 #home{
